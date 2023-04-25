@@ -30,8 +30,9 @@ const MyImageGallery = () => {
           key={imagePath}
           src={imagePath}
           width={500}
-            height={500}
+          height={500}
           alt="Image"
+          lazy={true}
           className="w-full h-full object-cover cursor-pointer border-2 rounded-md"
           onClick={() => handleClick(imagePath)}
         />
