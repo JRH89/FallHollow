@@ -12,18 +12,16 @@ export default function Home() {
         <h1 className='m-3 text-center sm:text-2xl md:text-3xl'>
           Adventures In Fall Hollow
         </h1>
+        <div className='flex mb-3'>
+      <Link className='flex-1 text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/gallery">Images</Link>
+      <Link className='flex-1 text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/videos">Videos</Link>
+      </div>
         <hr />
       </div>
       <div className='p-10'>      
       <Image loading='eager' width="1080" height="720" src="/images/fh/IG_1.png" className="max-w-full mx-auto border rounded-md" />
       </div>
-      <div className='text-3xl md:text-4xl'>
-        <ul className='text-violet-900 space-y-3'>
-          <li><Link href="/gallery" >Images</Link></li>
-          <li><Link href="/videos" >Videos</Link></li>
-        </ul>
-      </div>
-      <h2 className='p-10 text-xl'>Unleash the power of friendship and exploration with 'Adventures In Fall Hollow', the action-packed game being built in Unreal Engine 5. Play as one of three unique characters - a scarecrow, fox, or crow - and embark on a journey filled with adventure, danger, and self-discovery. Befriend the fox and crow and use their special abilities to uncover hidden areas or gain a strategic advantage over enemies. From dark caves to fast-paced magic/melee battles, 'Adventures In Fall Hollow' can take you on a sentimental journey that will remind you of the importance of connections and relationships in the human experience.
+      <h2 className='pb-10 text-xl'>Unleash the power of friendship and exploration with 'Adventures In Fall Hollow', the action-packed game being built in Unreal Engine 5. Play as one of three unique characters - a scarecrow, fox, or crow - and embark on a journey filled with adventure, danger, and self-discovery. Befriend the fox and crow and use their special abilities to uncover hidden areas or gain a strategic advantage over enemies. From dark caves to fast-paced magic/melee battles, 'Adventures In Fall Hollow' can take you on a sentimental journey that will remind you of the importance of connections and relationships in the human experience.
         <br />
         <br />
         <hr />

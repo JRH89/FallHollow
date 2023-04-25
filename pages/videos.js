@@ -7,8 +7,8 @@ const VGalleryPage = () => {
       <hr />
       <h1 className='m-3 text-center sm:text-2xl md:text-3xl'>Fall Hollow Video Gallery</h1>
       <div className='flex mb-3'>
-      <Link className='flex-1 pl-10 text-violet-800' href="/">Home</Link>
-      <Link className='pr-10 text-violet-800' href="/gallery">Images</Link>
+      <Link className='flex-1 pl-10 text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/">Home</Link>
+      <Link className='pr-10 text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/videos">Videos</Link>
       </div>
       <hr />
       <VideoGallery />
