@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const MyImageGallery = () => {
   const [imagePaths, setImagePaths] = useState([]);
@@ -23,13 +24,15 @@ const MyImageGallery = () => {
   };
 
   return (
-    <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-4 p-10">
+    <div className="grid md:grid-cols-2 sm:grid-cols-2 gap-3 p-10">
       {imagePaths.map((imagePath) => (
-        <img
+        <Image
           key={imagePath}
           src={imagePath}
+          width={500}
+            height={500}
           alt="Image"
-          className="w-full h-full object-cover cursor-pointer"
+          className="w-full h-full object-cover cursor-pointer border-2 rounded-md"
           onClick={() => handleClick(imagePath)}
         />
       ))}

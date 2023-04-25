@@ -14,9 +14,9 @@ const MyVideoGallery = () => {
   }, []);
 
   return (
-    <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-4 p-10">
+    <div className="grid grid-cols-1 gap-4 p-10">
       {videoPaths.map((videoPath) => (
-        <video key={videoPath} controls className="w-full h-full">
+        <video key={videoPath} controls className="w-full h-full border-2 rounded-md">
           <source src={videoPath} type="video/mp4" />
         </video>
       ))}
