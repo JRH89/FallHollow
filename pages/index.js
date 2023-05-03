@@ -6,22 +6,22 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='mt-5 text-center align-center justify-center'>
-      <div className='w-full text-3xl md:text-6xl'>
+    <main className='pt-5'>
+      <div className='m-3 text-center text-3xl md:text-6xl'>
         <hr />
-        <h1 className='m-3 text-center sm:text-2xl md:text-3xl'>
+        <h1 className='m-3 flex justify-center text-3xl md:text-3xl'>
           Adventures In Fall Hollow
         </h1>
-        <div className='flex mb-3'>
-      <Link className='flex-1 text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/gallery">Images</Link>
-      <Link className='flex-1 text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/videos">Videos</Link>
+        <div className='flex w-full mb-3'>
+      <Link className='flex-1 pl-5 text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/gallery">Images</Link>
+      <Link className='flex-1 pr-5  text-violet-800 hover:opacity-30 hover:underline duration-300 text-xl' href="/videos">Videos</Link>
       </div>
         <hr />
       </div>
-      <div className='p-10'>      
+      <div className='p-5 pt-10'>      
       <Image loading='eager' width="1080" height="720" src="/images/fh/IG_1.png" className="max-w-full mx-auto border rounded-md" />
       </div>
-      <h2 className='pb-10 text-xl'>Unleash the power of friendship and exploration with 'Adventures In Fall Hollow', the action-packed game being built in Unreal Engine 5. Play as one of three unique characters - a scarecrow, fox, or crow - and embark on a journey filled with adventure, danger, and self-discovery. Befriend the fox and crow and use their special abilities to uncover hidden areas or gain a strategic advantage over enemies. From dark caves to fast-paced magic/melee battles, 'Adventures In Fall Hollow' can take you on a sentimental journey that will remind you of the importance of connections and relationships in the human experience.
+      <h2 className='text-center p-8 text-2xl ms:text-3xl'>Unleash the power of friendship and exploration with 'Adventures In Fall Hollow', the action-packed game being built in Unreal Engine 5. Play as one of three unique characters - a scarecrow, fox, or crow - and embark on a journey filled with adventure, danger, and self-discovery. Befriend the fox and crow and use their special abilities to uncover hidden areas or gain a strategic advantage over enemies. From dark caves to fast-paced magic/melee battles, 'Adventures In Fall Hollow' can take you on a sentimental journey that will remind you of the importance of connections and relationships in the human experience.
         <br />
         <br />
         <hr />
