@@ -1,5 +1,5 @@
 import MyImageGallery from '@/components/ImageGallery'
-import Link from 'next/link';
+import Link from 'next/link'
 
 const GalleryPage = () => {
   return (
@@ -17,7 +17,7 @@ const GalleryPage = () => {
       
       <MyImageGallery />
     </div></>
-  );
-};
+  )
+}
 
-export default GalleryPage;
+export default GalleryPage

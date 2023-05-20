@@ -1,5 +1,5 @@
 import VideoGallery from '@/components/VideoGallery'
-import Link from 'next/link';
+import Link from 'next/link'
 
 const VGalleryPage = () => {
   return (
@@ -17,7 +17,7 @@ const VGalleryPage = () => {
       
       <VideoGallery />
     </div></>
-  );
-};
+  )
+}
 
-export default VGalleryPage;
+export default VGalleryPage

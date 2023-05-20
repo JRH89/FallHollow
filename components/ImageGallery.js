@@ -1,27 +1,27 @@
-import { useState, useEffect } from 'react';
-import Image from 'next/image';
+import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 const MyImageGallery = () => {
-  const [imagePaths, setImagePaths] = useState([]);
-  const [clickedImage, setClickedImage] = useState(null);
+  const [imagePaths, setImagePaths] = useState([])
+  const [clickedImage, setClickedImage] = useState(null)
 
   useEffect(() => {
     async function fetchImagePaths() {
-      const res = await fetch('/api/images');
-      const { imagePaths } = await res.json();
-      setImagePaths(imagePaths);
+      const res = await fetch('/api/images')
+      const { imagePaths } = await res.json()
+      setImagePaths(imagePaths)
     }
 
-    fetchImagePaths();
-  }, []);
+    fetchImagePaths()
+  }, [])
 
   const handleClick = (imagePath) => {
-    setClickedImage(imagePath);
-  };
+    setClickedImage(imagePath)
+  }
 
   const handleClose = () => {
     setClickedImage(null);
-  };
+  }
 
   return (
     <div className="grid md:grid-cols-2 sm:grid-cols-2 gap-3 p-10">
@@ -46,7 +46,7 @@ const MyImageGallery = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default MyImageGallery;
+export default MyImageGallery

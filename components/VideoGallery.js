@@ -1,17 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 
 const MyVideoGallery = () => {
-  const [videoPaths, setVideoPaths] = useState([]);
+  const [videoPaths, setVideoPaths] = useState([])
 
   useEffect(() => {
     async function fetchVideoPaths() {
-      const res = await fetch('/api/videos');
-      const { videoPaths } = await res.json();
-      setVideoPaths(videoPaths);
+      const res = await fetch('/api/videos')
+      const { videoPaths } = await res.json()
+      setVideoPaths(videoPaths)
     }
 
-    fetchVideoPaths();
-  }, []);
+    fetchVideoPaths()
+  }, [])
 
   return (
     <div className="grid grid-cols-1 gap-4 p-10">
@@ -21,7 +21,7 @@ const MyVideoGallery = () => {
         </video>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default MyVideoGallery;
+export default MyVideoGallery
