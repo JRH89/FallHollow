@@ -6,7 +6,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <meta charSet="UTF-8"></meta>
       <link rel="shortcut icon" href="images/Hooker Hill (1).jpg"></link>
       <title>AdventuresInFallHollow</title>
       <meta property='og:image' content='https://github.com/JRH89/FallHollow/blob/main/public/images/fh/IG_1.png' />
