@@ -8,11 +8,11 @@ export default function Document() {
       <Head>
         <link rel="shortcut icon" href="images/Hooker Hill (1).jpg"></link>
         <title>AdventuresInFallHollow</title>
-        <meta property='og:image' content='https://github.com/JRH89/FallHollow/blob/main/public/images/fh/IG_1.png' />
+        <meta property='og:image' content='https://fall-hollow.vercel.app/_next/image?url=%2Fimages%2Ffh%2FIG_1.png&w=3840&q=75' />
         <meta property='og:description' content='Unreal Engine 5 Project' />
         <meta property='og:title' content='Fall Hollow' />
         <meta property="description" content="Unreal Engine 5 Project" />
-        <meta property='og:image' content='http://localhost:3000/_next/image?url=%2Fimages%2Ffh%2FIG_1.png&w=3840&q=75' />
+        <meta property='og:image' content='https://fall-hollow.vercel.app/_next/image?url=%2Fimages%2Ffh%2FIG_1.png&w=3840&q=75' />
         <meta property='og:description' content='Unreal Engine 5 Project' />
         <meta property='og:title' content='Fall Hollow' />
         <meta property='og:type' content='website' />
